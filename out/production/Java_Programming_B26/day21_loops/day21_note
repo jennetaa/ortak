@@ -1,0 +1,43 @@
+3/1/2022
+Day 21 Loops
+day21_loops
+____________________________________________________________
+Loops introduction
+while loop
+__________________________________________________________
+[Middle char]
+Given a String, write a program to display the middle character of a
+string
+a) If the length of the string is even there will be two middle
+characters. b) If the length of the string is odd there will be one middle
+character.
+Ex:
+Input: elephant
+Output: The middle characters: ph
+__________________________________________________________
+Loops
+Loops in programming are used to repeat statements multiple times
+Loop types:
+while loop, do while loop, for loop, for each loop
+while loop: loop that continues to run as long as the boolean value
+is true
+syntax:
+while(boolean_expression){
+// statements that are repeated
+} // while loop ending point
+while loop execution flow:
+boolean expression is checked
+-> if the boolean is true
+the loop will run, which means the code
+inside of the while loop are executed top to bottom
+then it goes back up to check the
+boolean expression again
+-> if the boolean is false: the loop will
+stop
+infinite loop: a loop that will continue to run, over and over again
+without stopping. The boolean will never be false
+iteration: each cycle of the loop. The statements are run each time
+you iterate
+Factorial
+5! = 5 * 4 * 3 * 2 * 1
+120

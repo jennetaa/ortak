@@ -1,0 +1,92 @@
+2/16/2022
+Day 13 If statements
+day13_if_statements
+____________________________________________________________
+multi branch if statements
+if without brackets
+ternary
+__________________________________________________________
+Recap
+Q: When to use multi branch statements:
+when you have multiple conditions that you want to check
+and when those statements are related to each other
+if (condition) {
+// if the condition is true, this code will run
+} else if(condition 2){
+// if the condition 2 is true, this code will run
+} else if(condition 3){
+// if the condition 3 is true, this code will run
+} else {
+// if all the conditions were false, then this code will
+run
+}
+Q: How many else if can you have
+as many as you want
+Q: How many else can you have
+only one at the end
+Q: Is else block mandatory
+no, it possible to have just single if statement
+Multi branch if statements will execute top to bottom like other
+code, the condition will be checked and if there is a true condition that
+code block will be executed and if statement will be done
+Q: What if there is more than 1 true statement
+since the code goes from top to bottom, the first true
+statement will decide which code block will be run
+single if vs multi branch
+single if: for each if statement each condition is
+checked
+if(){
+}
+if(){
+}
+multi branch: each if condition will be checked, until
+there is a true result
+if(){
+} else if(){
+}
+__________________________________________________________
+if statements without brackets
+you can create if statements without brackets
+with brackets:
+if(4 > 5){
+System.out.println("hello");
+}
+without brackets:
+if(4 > 5)
+System.out.println("hello");
+when there is an if statement without brackets, only the line after
+it is the if block
+without brackets, you cannot have more than one line of code in that
+if block
+suggestion: don't be lazy, always use brackets
+__________________________________________________________
+Ternary
+a way to write an if statement quickly
+syntax:
+resultVariable = boolean_expression ? trueValue :
+falseValue;
+? -> if, but it comes after boolean
+: -> else
+ex:
+int score = 90;
+if(score > 75){
+System.out.println("pass");
+} else {
+System.out.println("fail");
+}
+-------
+int score = 90;
+String result;
+if(score > 75){
+result = "pass";
+} else {
+result = "fail";
+}
+System.out.println(result);
+-------
+int score = 90;
+String result;
+result = score > 75 ? "pass" : "fail";
+short videos
+sat: nested if
+sun: switch

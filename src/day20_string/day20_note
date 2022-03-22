@@ -1,0 +1,90 @@
+2/28/2022
+Day 20 String Practice
+day20_string
+___________________________________________________________________
+Recap
+general syntax to use methods: stringObject.method()
+Index: a number position. Every character in a String has an index
+indexes start from 0
+String s = "apple";
+01234
+charAt(int index): returns the character at the given index
+ex: s.charAt(0) --> 'a'
+s.charAt(3) --> 'l'
+s.charAt(6) -->
+StringIndexOutOfBoundsException
+-> If you use any index that is not
+valid you will get the exception/error
+indexOf(): returns the index (int) based on the given argument
+(char): return the index where the given char is found in
+the String. It returns the first occurrence of that character
+ex:
+s.indexOf('a') --> 0
+s.indexOf('p') --> 1
+s.indexOf('z') --> -1
+-> When a char is not found
+in the String, it returns -1
+(String): returns the index of the character sequence in
+the String. It returns the index where the sequence starts
+ex:
+s.indexOf("ppl") --> 1
+s.indexOf("le") --> 3
+s.indexOf("pear") --> -1
+s.indexOf("a") --> 0
+(char, int): it returns the index of the given char, but
+it starts looking at the given int index number
+ex:
+String a = "applep"
+012345
+a.indexOf('p', 2) --> 2
+a.indexOf('p', 3) --> 5
+(String, int)
+lastIndexOf(): returns the index (int) based on the given argument,
+but it checks from the end of the String
+ex:
+s.lastIndexOf('p') --> 2
+substring(): returns part of a String based on the arguments
+(int): return the String characters starting from the
+given index (starting point) until the end of the String. This given index
+is included in the resulting String
+Ex:
+String str = "monday";
+
+012345
+str.substring(3) --> day
+str.substring(1) --> onday
+str.substring(10) -->
+StringIndexOutOfBoundsException
+(int, int): returns the String characters from the first
+argument (index) until the second argument (index). The first index is
+included in the resulting String, but the second index is not included
+(the stopping point)
+String str = "monday";
+
+012345
+str.substring(2, 5) --> nda
+str.substring(2, 6) --> nday
+str.substring(2, 7) -->
+StringIndexOutOfBoundsException
+these two code do similar thing
+s.charAt(0)  -> gives char type
+s.substring(0,1) -> gives String type
+how to convert any type to String
+concatenate a space
+usually empty space ""
+// ( "" + firstName.charAt(0)).method --> this will also give you
+the first character, but as a char type
+replace(): allows you to change a certain character/s to another
+character/s. Replaces all occurrences of those characters in the String
+(char, char): first char is the value you are trying to change
+and the second char is the value you are changing it to
+Ex:
+String a = "apple";
+a.replace('p', 'z') --> azzle
+(String, String): first String is the value you are trying to
+change and the second String is the value you are changing it to
+String str = "today is monday";
+str.replace(" ", "") --> todayismonday
+str.replace("monday", "tuesday") -> today is
+tuesday
+replaceFirst(): replaces the first occurrence of the characters

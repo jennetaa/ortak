@@ -1,0 +1,62 @@
+2/19/2022
+Day 14 Nested If statements
+day14_if_statements
+____________________________________________________________
+nested if statements
+__________________________________________________________
+Warm Up
+[Pandemic Checker]
+Write a program that will read a number from the user. This number will be
+a year. Use that given year to figure out if there was a pandemic in that
+year, and if there was which one.
+Data to use:
+1346-1353: The Black Death
+1665-1666: Great Plague of London
+1770-1772: Russian plague
+1889-1890: Flu pandemic
+1916: American polio epidemic
+1918-1920: Spanish Flu
+2009-2010: H1N1 Swine Flu pandemic
+2014-2016: West African Ebola epidemic
+2020-2022: COVID-19
+Any year not in those ranges: No Pandemic
+__________________________________________________________
+Nested if statements
+if statement inside of if statement
+if( 1 ) {
+if( 2 ){
+A
+}
+} else {
+if( 3 ){
+B
+} else {
+C
+}
+}
+ 1       2
+true true  --> A
+false true --> goes to else
+true    false --> nothing happens, there is no else
+1 3
+false true --> B
+false false --> C
+Format the code
+windows: control + alt + l
+mac: command + option + l
+inputs:
+declare and assign a 4 digit pin code
+declare and assign the last 4 digits of ssn: 1234
+declare and assign expected values for both
+example expected:
+pin: 1552
+ssn: 1234
+outputs:
+when the pin-code and ssn match the expected print:
+Authentication successful
+when the pincode or ssn are not correct print:
+Authentication failed
+when the pincode was not correct print:
+incorrect pin code
+whent he ssn is not correct print:
+invalid ssn

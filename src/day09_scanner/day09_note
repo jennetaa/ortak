@@ -1,0 +1,100 @@
+2/12/2022
+Day 9 Logical Operators & Scanner
+day09_scanner
+____________________________________________________________
+Recap
+Logical Operators
+Precedence of all operators
+Scanner class
+____________________________________________________________
+Todo:
+- get ready to move away from okta
+- quiz due by tonight 11:59 EST
+____________________________________________________________
+Recap
+Shorthand Operators
++=
+-=
+*=
+/=
+%=
+Relational Operators
+statements return a boolean value
+>
+<
+>=
+<=
+==
+!=
+____________________________________________________________
+Right click -> refactor -> rename
+Logical Operators
+I want to do this:
+5 < num < 10 --> cannot do this in java
+Evaluate/compare two boolean expressions and result in a boolean
+value
+one comparison and one comparison -> result
+num > 5 AND num < 10
+AND Logic
+&&
+both expressions need to be true for the result to be
+true
+OR logic
+||
+at least one expressions to be true for the result to be
+true
+NOT logic
+!
+opposite boolean value
+short circuit: more efficient. if the output of the expression is
+known the other condition is not executed
+&& AND checks if both boolean expressions are true.
+If the first expressions is true it checks
+the second one for true to get a result of true
+If the first expression is false then the
+second expression is not executed at all
+|| OR checks if both boolean expressions are true.
+If the first expressions is true it doesn't
+execute the second expressions
+If the first expression is false then the
+second expressions is executed
+& execute both expressions not matter what
+| execute both expressions not matter what
+____________________________________________________________
+Scanner
+Scanner is a CLASS that has METHODS that allow us to get input
+values from the console
+classes are java files
+methods are a block of code that is ready to use. do/have actions
+Why do we use Scanner?
+To avoid hard coded information, we want to use/get
+information from outside of the code
+How can you use Scanner
+1) import the class
+allow us to use a different class/file
+that are in different packages
+for Scanner: import java.util.Scanner;
+-> imports go between the package and class
+PIC: package, import, class
+-> you must import to use Scanner
+2) creating the Scanner object(variable)
+object allows us to use the methods
+syntax:
+Scanner nameOfScanner = new
+Scanner(System.in);
+3) use the methods
+to use the actions that are defined we can
+use Scanner method with the object we made (step 2)
+general syntax:
+nameOfScanner.method()
+methods:
+nextByte()
+nextShort()
+nextInt()
+nextLong()
+nextFloat()
+nextDouble()
+nextBoolean()
+String types:
+next() : one word
+nextLine(): multiple words

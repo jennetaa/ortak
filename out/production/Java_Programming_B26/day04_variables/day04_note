@@ -1,0 +1,137 @@
+2/5/2022
+Day 4 Variables Intro
+day04_variables
+____________________________________________________________
+Recap
+Variable declaration and assignment
+Variable naming rules
+Primitive datatypes
+Replit
+____________________________________________________________
+Recap
+Comments
+text directly in the code, it is used to explain the
+code, have reminders of what it does
+does not get executed
+-> When there is an issue in the code, we can comment out
+the code as well
+types:
+// single line comment - comments one lines
+/* multi line comment - comments multiple
+lines */
+/** java docs comment - comments multiple
+lines with more functionality */
+TODO: allows you to create a reminder, intellij has a
+built in feature to show all todo comments
+Escape Sequences
+allows to use certain characters that are also part of
+java syntax
+\' '
+\" "
+\\ \
+\n new line
+\t tab
+____________________________________________________________
+Shortcut to comment
+command/control + /
+____________________________________________________________
+Variables
+container to hold data/information
+allow the values of information to changed, used multiple times
+Declare a variable: makes a container/variable ready to be used
+dataType variablName;
+int age;
+Assign a value to a variable: store some value/number into your
+container
+variableName = value;
+age = 10;
+Declaring and assigning at the same time
+dataType variableName = value;
+int age = 10;
+DataTypes
+In java there is many types.
+Primitive datatypes: byte, short, int, long, float, double, boolean,
+char
+Object types: (we will spend more time on this later)
+-> String
+-> all primitives are lowercase
+whole numbers: (ex: 40)
+byte
+short
+int   <- by default
+long
+floating numbers: (ex: 24.62)
+float
+double  <- by default
+-> compiler uses int and double by default
+How to tell the compiler you want long number: use an 'L' at the end
+of the number
+How to tell the compiler you want float number: use an 'F' at the
+end of the number
+concatenation
+we can use + to add variables to characters, to make a message
+reassigning
+changing the value something else, old value is lost. Updating the
+variable
+Q: Can you write numbers starting with 0
+no, it becomes a different number
+for whole numbers
+Hardcoded: directly in the code, so it is difficult to change
+shortcut for printing variables: soutv
+Need to talk about:
+floating numbers
+concatenation
+reassigning
+variable naming rules
+class name Olympics
+create a variable for the year
+print the country and year for next couple events
+reassign year value each time. Country name is hard coded
+data:
+China 2022
+France 2024
+Italy 2026
+Look forward to the year $year for the Olympics to be in $location
+Task:
+class name: School
+declare and assign these variables
+number of students in grade 1
+number of students in grade 2
+number of students in grade 3
+number of students in grade 4
+number of students in grade 5
+total number of students in your school
+number of days in a year (have some half day = ~ 100.5)
+number of snow days in a year (double)
+average gpa in school (3.5) [ranges 1.0 - 4.0]
+print all of the variables with unique messages
+____________________________________________________________
+Variable naming rules
+- make the variable names are clear as possible
+dont do:
+int x;
+int a;
+- Variables can contains these:
+- any letter (A-Z, or a-z)
+- any number (0-9)
+- only special characters allowed are dollar sign $ and
+underscore _
+- for multiple words: use camel case.
+each new word starts with an uppercase
+words: today is saturday
+camel case: todayIsSaturday
+Pascal case( class names) TodayIsSaturday
+- don't use reserved words
+- Can't start with a number
+int 1age --> invalid
+int age1 --> valid
+____________________________________________________________
+Summary:
+What are variables?
+How to declare variables
+How to assign to variables
+How to declare and assign variables
+How to reassign
+How to concatenate variables with characters
+What are primitive datatypes
+What are the default types

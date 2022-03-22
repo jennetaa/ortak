@@ -1,0 +1,46 @@
+2/14/2022
+Day 11 If statements
+day11_if_statements
+____________________________________________________________________
+if statements
+if/else statements
+____________________________________________________________________
+Control Flow Statements
+code that allows you to control how your program runs
+if statements:
+single if statement
+if / else statement
+multi branch if statement if/ else if / else
+nested if
+single if
+if(boolean_expression){
+// statements
+}
+when the boolean expression is true -> the statements
+inside of the if block will be executed
+when the boolean expression if false -> nothing will
+happen, the code will resume execution after the if statement
+if else
+if(boolean_expression) {
+// statements for if block
+} else {
+// statements for else block
+}
+when the boolean expression is true -> the statements
+inside of the if block will be executed
+when the boolean expression is false -> the statements
+inside of the else block will be executed
+What is the difference between the single if statement and the if
+else statement?
+For both the if block is executed if the boolean is true
+but when the boolean is false
+single if: nothing happens
+if else: else block runs
+____________________________________________________________________
+Format the code
+Mac: Command + Option + L
+Windows: Control + Alt + L
+Sharing code in discord
+```
+code
+```

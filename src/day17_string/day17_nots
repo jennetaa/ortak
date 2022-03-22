@@ -1,0 +1,45 @@
+2/23/2022
+Day 17 String
+day17_string
+____________________________________________________________
+String class
+Start String methods
+____________________________________________________________
+String
+String is a class
+the class is in package: java.lang
+-> java.lang is automatically imported
+-> Scanner class was in java.util
+Strings are object types, not primitive data types
+object types (non primitive)
+immutable: cannot change it
+-> in java: an immutable object cannot be changed after it is made.
+The value cannot be changed
+Memory
+in general:
+hard drive storage - where you store data
+ram: memory used by the computer
+Stack: variable names/reference
+Heap: objects are stored
+String pool:
+located in the heap
+it is a special memory location for
+String literals
+2 ways to create String objects
+- String literal
+just giving double quotations
+- new keyword
+using new String("value");
+Q: What is the difference between == and .equals()
+== compares the objects in the memory
+.equals() compares the value, meaning the characters
+String methods:
+equals(): compares two Strings and give a boolean
+it gives true if the String characters are exactly the
+same.
+equalsIgnoreCase(): compare two Strings and given a boolean
+it gives true if the String characters are the same
+characters, while ignoring case sensitivity
+length(): gives an int of how many characters are in the String
+Q: Are spaces characters: yes. Counts as a character for
+the length method

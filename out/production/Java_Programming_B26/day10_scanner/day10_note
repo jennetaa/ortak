@@ -1,0 +1,89 @@
+2/13/2022
+Day 10 Scanner
+day10_scanner
+____________________________________________________________
+Scanner
+Practice
+__________________________________________________________
+Recap
+Scanner
+hard code: values directly in the code
+ex: int a = 450; // 450 is hard coded
+ex: String url = "www.google.com";
+dynamic values: value that come from outside of the code
+ex: Scanner, website, db, file
+ex: int b = SCANNER CODE;
+Scanner is a class that allows us to get values from the console.
+The Scanner methods allow us to type into the console and depending on the
+method, we are able to get different datatypes.
+class: java file, has methods and variables. Non primitive datatype
+method: group of code, has some functionality
+ex: nextInt() method allows us to type a number in the
+console and save it to a variable or use it
+How do you use the Scanner and its methods
+1) import the class
+to use a file from a different package we
+must import the file we want to use
+general syntax:
+import package name.class name;
+popular names for Scanner: scan, input,
+scanner, keyboard
+for Scanner:
+import java.util.Scanner;
+-> imports go between the package and the
+class
+PIC: order of the java file
+content: package, import, class
+-> What about String?
+String class is in a different package,
+how are we using it?
+package: java.lang is automatically
+imported
+2) make a Scanner object (declare a Scanner variable)
+syntax:
+Scanner name = new
+Scanner(System.in);
+-> only declared once in each class
+3) use the Scanner methods with the name you declared
+ex:
+name.method()
+Scanner methods:
+nextByte()
+nextShort()
+nextInt()
+nextLong()
+nextFloat()
+nextDouble()
+nextBoolean()
+next(): gives you a String,
+but it only accepts one word
+nextLine(): gives you a
+String, but it allows multiple words. This method also accepts enter
+inputs
+problem:
+whenever we use nextLine()
+method after any other Scanner methods the input is consumed by the enter
+from the previous input
+solution:
+add an extra nextLine() just
+to handle the enter input, then you can use nextLine() to read a String
+value
+__________________________________________________________
+Short videos this week:
+If Statements: Single If
+If Statements: If & Else
+If Statements: Multi Branch If
+If Statements: Nested If
+Ternary
+Switch Statement
+more replit added
+[B] Print Variable 4
+[B] Print Variable 5
+[B] Print Variable 6
+[B] Phone Number
+[B] Time
+[B] Print Variable 7
+[I] Add Numbers
+[A] Patient Information
+[A] Seconds Converter
+variables short quiz solution on canva

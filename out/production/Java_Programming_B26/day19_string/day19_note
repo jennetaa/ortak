@@ -1,0 +1,76 @@
+2/27/2022
+Day 19 String
+day19_string
+____________________________________________________________
+Recap
+String methods:
+general syntax: stringObject.method()
+equals(): checks if the Strings value/objects have the same characters
+-> cares about case sensitivity
+returns boolean
+equalsIgnoreCase(): checks if the String value/object have the same
+characters, but it ignores case sensitivity
+returns boolean
+length(): checks and returns the number of characters
+-> spaces are characters
+returns int
+toUpperCase(): converts all the characters in the String to uppercase
+letters
+returns String
+toLowerCase(): converts all characters in the String to lowercase
+letters
+returns String
+startsWith(""): checks if the String starts with the characters given
+in the parenthesis
+returns boolean
+endsWith(""):  checks if the String ends with the characters given in
+the parenthesis
+return boolean
+contains(""): checks if the String has the given character sequence in
+it
+returns boolean
+isEmpty(): checks if your String has characters or not. If there is no
+characters, it is empty
+return boolean
+isBlank(): checks if your String has non white space characters or
+not. If there is only white spaces it is blank
+return boolean
+trim(): removes spaces in the beginning and end
+-> spaces anywhere between other characters are not removed
+return String
+____________________________________________________________
+Indexes
+every character in a String has a position where it is located called
+an index
+index numbers start from 0
+Q: How can I find the last index of a String
+length - 1
+Why does that work? Because index starts from 0
+method(_______)  <-- when you give some information in the parenthesis
+of a method it is called an argument
+charAt(index): returns the character at the given index number
+returns char
+substring(): returns part of a String
+(int): the returned String starts from the given index number
+until the end of the String.
+(int, int): the returned String starts from the first given index
+number until the second given index number. The first index is included,
+but the last index is not included in the characters
+Ex:
+String s = "abc";
+s.substring(1) --> bc
+indexOf(): returns the index number of the given char/String argument
+returns int
+-> if you try to find a character that does not exist in the
+String, the method will return -1
+(char): it will find the first occurrence of the given character
+in the String and returns the index of that character
+(String): it will find the first occurrence of the given character
+sequence (String) and it returns the index of the first character of that
+sequence
+(char/String, int): it will find the char/String (first argument)
+in the String starting from the index of the second argument
+Later:
+lastIndexOf()
+replace()
+replaceFirst()

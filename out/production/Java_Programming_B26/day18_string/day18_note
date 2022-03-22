@@ -1,0 +1,75 @@
+2/26/2022
+Day 18 String
+day18_string
+____________________________________________________________
+Recap
+String class
+__________________________________________________________
+String
+String is a class, so we make objects to use it
+-> holds multiple characters
+the class is found in the java.lang package
+-> is imported automatically
+2 ways to create String objects
+1) String literal: using double quotations with nothing else
+Ex: String s = "Saturday";
+-> made in the String pool
+2) new keyword: new String("");
+Ex: String s = new String("Saturday");
+Memory
+Stack: references (variable name)
+Heap: objects (variables), String pool
+String pool: a special memory location for String literals. It saves
+memory by not having to make Strings over and over again
+String is immutable: String objects cannot be changed after being created
+--> to compare Strings we should never use ==
+== with Strings compare the objects to each other
+String methods:
+general syntax: stringObject.method()
+equals(): checks if the Strings value/objects have the same
+characters
+-> cares about case sensitivity
+returns boolean
+equalsIgnoreCase(): checks if the String value/object have the same
+characters, but it ignores case sensitivity
+returns boolean
+length(): checks and returns the number of characters
+-> spaces are characters
+returns int
+toUpperCase(): converts all the characters in the String to
+uppercase letters
+returns String
+toLowerCase(): converts all characters in the String to lowercase
+letters
+returns String
+startsWith(""): checks if the String starts with the characters
+given in the parenthesis
+returns boolean
+endsWith(""):  checks if the String ends with the characters given
+in the parenthesis
+return boolean
+contains(""): checks if the String has the given character sequence
+in it
+returns boolean
+isEmpty(): checks if your String has characters or not. If there is
+no characters, it is empty
+return boolean
+isBlank(): checks if your String has non white space characters or
+not. If there is only white spaces it is blank
+return boolean
+trim(): removes spaces in the beginning and end
+-> spaces anywhere between other characters are not
+removed
+return String
+__________________________________________________________
+ask the user to enter a message
+clean the message for empty spaces in the beginning and end
+check the message for bad phrases:
+java is bad
+quit
+have fun
+crying
+if there is a bad phrase in the message print:
+message failed to send
+otherwise print:
+$message sent

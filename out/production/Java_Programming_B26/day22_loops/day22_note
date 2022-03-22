@@ -1,0 +1,37 @@
+3/2/2022
+Day 22 Loops
+day22_loops
+____________________________________________________________
+while loop
+do while loop
+____________________________________________________________
+Recap
+Ternary
+types need to match
+type s = boolean (type) ? (type)
+Loops
+repeating some code statements multiple times
+while loop: repeat some code statements using a boolean value.
+usually used when the number of iterations are not
+defined.
+flow/execution order of while loop:
+1) checks the boolean expression
+-> when the boolean is true:
+execute the statements
+inside of the while block (inside of the curly brackets), top to bottom
+the loop goes back to step
+1)
+-> when the boolean is false:
+the loop stops. the code
+resume execution from after the loop
+iteration: one cycle/execution of the code
+infinite loop: the loop continues to run, with no stop
+-> in while loop it means the boolean will never be
+false, it stays always true
+avoid infinite loops
+do while
+similar to the while loop but the first iteration/execution always
+happens no matter the boolean expressions
+do{
+// statements
+} while(boolean_expression);

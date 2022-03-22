@@ -1,0 +1,38 @@
+2/15/2022
+Day 12 If statements
+day12_if_statements
+____________________________________________________________
+if statements
+if/else statements
+multi branch if statements
+__________________________________________________________
+Recap
+single if statement:
+if(boolean_expression){
+// statement
+}
+if the boolean expression is true, then the code in the
+if block will be run
+if the boolean expression is false, not code is executed
+if else statement
+if(boolean_expression){
+// statement
+} else {
+// statement
+}
+if the boolean expression is true, then the code in the
+if block will be run
+if the boolean expression is false, then the code in the
+else block will be run
+__________________________________________________________
+What is debugging:
+to find the reason of your issue/error in the code, you are able to
+check line by line
+Debug:
+1) create a breakpoint by clicking on the gray bar next to the code
+lines
+2) click the on the green run button, but select the debug option
+3) then to progress from line to line you can click the step over
+button (execute 1 line at a time)
+4) Debugger window/ Console: you can swap between the windows to see
+the console and the debugger information

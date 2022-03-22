@@ -1,0 +1,27 @@
+3/8/2022
+Day 26 Nested Loops
+day26_nested_loops
+____________________________________________________________
+nested loop
+____________________________________________________________
+Nested Loops
+loop inside of a loop
+ex:
+// outer loop
+for(int week = 1; week <= 4; week++){
+System.out.println("Week: " + week);
+// inner loop
+for(int day = 1; day <= 7; day++){
+System.out.println("\tDay: " + day);
+}
+}
+outer loop: first loop that has another loop inside of it
+- determines how many executions of the code you want
+inside of this block
+- in our example: we wanted to run for 4 times, because
+there is 4 weeks
+inner loop: loop inside of another one
+- treat this as a normal loop that will be executed from
+beginning to end EACH ITERATION OF THE OUTER LOOP
+- in our example it means the days will go from 1 to 7
+for every week

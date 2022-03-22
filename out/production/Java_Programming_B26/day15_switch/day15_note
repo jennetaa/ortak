@@ -1,0 +1,60 @@
+2/20/2022
+Day 15 Switch Statements
+day15_switch
+____________________________________________________________
+switch statements
+____________________________________________________________
+Switch
+conditional statement: controlling the program
+switch statements only compare exact values ==
+-> relational operators ( > < >= <= !=) are not allow in
+switch
+switch(variable) {
+case x:
+// statements
+break;
+default:
+}
+switch: keyword to make a switch statement
+variable: value being checked/compared in the switch
+on these types are allowed as the input variable: byte,
+short, int, char, String
+which means these types are not allowed as the input
+variable: float, double, long, boolean
+case: value that you are checking for. The datatype of the case
+should match the datatype of the variable being checked
+statements: any code you want to run when the case matches
+break: stops and exits the switch statement
+default: case when no other cases match
+example:
+int a = 3;
+switch(a) {
+case 1:
+// statements
+break;
+case 2:
+// statements
+break;
+case 3:
+System.out.println("Three");
+break;
+}
+Execution Flow
+if statements: go top to bottom. Checks each condition
+one at a time until a condition is true or there is no more conditions
+switch statement: the case matches first, then the
+statements are executed, top to bottom, from that case until the end of
+the switch or break keyword
+Declare price and calories variables
+Ask the user to enter which size drink they want
+Based on the drink size determine the price and calories of the order
+data:
+size: tall
+price: 2.50
+calories: 100
+size: grande
+price: 4.00
+calories: 150
+size: venti
+price: 4.50
+calories: 200

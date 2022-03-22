@@ -1,0 +1,68 @@
+2/9/2022
+Day 8 Relational & Shorthand Operators
+day08_relational_operators
+____________________________________________________________
+Recap
+Shorthand Operators
+Relational Operators
+Operator Precedence
+____________________________________________________________
+Office hours
+Optional Extra sessions for practice
+5:30 est - 6:45 EST
+Tuesday and Wednesdays
+Recordings will be available on canvas
+Quizzes
+no notes, no intellij
+____________________________________________________________
+Recap
+Unary Operators
++ plus(positive) operator
+- minus (negative) sign
+++ increment operator
+-- decrement operator
+Given int num = 0;
+pre-increment: increments the value before the statement
+++num
+pre-decrement: decrements the value before the statement
+--num
+post-increment: increments the value after the statement
+num++
+post-decrement: decrements the value after the statement
+num--
+____________________________________________________________
+Shorthand operators
+shortened versions of the arithmetic operators
++=
+-=
+*=
+/=
+%=
+____________________________________________________________
+Relational Operators
+> greater than
+< less than
+>= greater than or equal to
+<= less than or equal to
+== equals
+!= not equals
+Q: What is the difference between = and ==
+in java we use = as an assignment operator
+in java we use == to compare two values, are they equal?
+Ranges in math:
+3 < number < 10
+Cannot do this in java, we will learn how to do this on the weekend
+____________________________________________________________
+Operator Precedence
+-(negative) ++ --
+* / %
++ -
+> < >= <=
+== !=
+= += -= *= /= %=
+You can use parenthesis are group code and execute first
+____________________________________________________________
+Short videos:
+logical operator
+Scanner
+Extra practices

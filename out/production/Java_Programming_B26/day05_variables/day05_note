@@ -1,0 +1,149 @@
+2/6/2022
+Day 5 Variables
+day05_variables
+____________________________________________________________
+Recap
+char
+boolean
+String
+primitive casting
+____________________________________________________________
+Recap
+What are variables?
+container/storage that holds information/data/values
+-> Why do we need variables: improves re-usability,
+reduces repetitive code. Also it makes easier to change the information
+-> Can you store a variable in another variable: it will
+assign the value from the first variable to the other one
+How to declare variables
+Create a container that can store data and you clarify
+the type of data that it will store. Must declare before using it. Creates
+the variable name that is used to access the data.
+-> How do you access variables: you give the variable
+name, with no quotations
+- syntax:
+dataType variableName
+int age;
+How to assign to variables
+Puts a value(data/information) into a variable using the
+assignment operator =
+- syntax:
+variableName = value
+age = 10;
+How to declare and assign variables
+Instead of creating the variable and storing information
+into the variable at separate time, it is done at the same time
+- syntax:
+dataType variableName = value
+Naming rules for variables
+use any letter (A-Z or a-z)
+contains numbers (0-9), but can't start with a number
+can have: age2
+cannot have: 2age
+special characters: dollar sign $ and underscore _
+no reserved words
+no spaces
+cannot have repeating names, names must be unique
+should follow camel case:
+starts with lowercase and every other word in
+the name should start with a uppercase
+How to reassign
+change the value in a variable. Updates the value
+How to concatenate variables with characters
+add a group of characters in double quotations with a
+variable using the plus operator +
+When you concatenate with a String, the result is a
+String
+What are the datatypes types
+in java there is primitive datatypes and non primitive
+types
+- we will learn non primitive later
+what kind of information
+What are primitive datatypes
+whole numbers (Integers)
+byte
+short
+int <- default type by compiler
+long
+floating numbers (Decimal numbers)
+float
+double <- default type by compiler
+character
+char : holds a single character
+-> each character is represented in a
+single quote 'a'
+unicode: character have numbers related to
+them
+ASCII - part of unicode
+boolean
+boolean: true or false statements
+Non primitive datatype
+String
+not a primitive datatype. Class
+holds multiple characters using the
+double quotations
+concatenations vs addition
+String + String ->
+concatenation
+String + number ->
+concatenation
+values of the
+String and number type are combined, output value is String
+String + char ->
+concatenation
+values of the
+String and a char are combined, output value is String
+number + number -> addition
+char + char -> addition
+Q: What is the difference between 'a'
+and "a"
+the types are different. The
+'a' is a char type and the "a" is a String type
+____________________________________________________________
+Task
+create a class MyName
+create a main method
+create multiple char variables, one for each letter of your name
+print your name
+print each letter in a different line
+print your name in the same line
+____________________________________________________________
+Task
+create a class CellPhone
+create a main method
+declare and assign these variables:
+brand, model, color, price, storage, hasCamera, sim(char
+A, B, C)
+Print all the variables
+sample data: apple, iphone 10, black, 1000.99, 128, true,
+A
+____________________________________________________________
+Task
+create a class EmployeeInfo
+create a main method
+declare and assign these variables:
+first name, last name, gender, age, company name, are the
+full time, job title, salary, number of pto (0-25), are they married,
+suite(char - A, B, C, D)
+Print all the variables
+____________________________________________________________
+In numbers you can use underscore to make the number more readable
+java doesn't allow you to type commas in number
+Example:
+1,000,00
+java: 1_000_000
+____________________________________________________________
+Type casting
+Convert from one primitive datatype to another
+- going from a smaller datatype to a bigger datatype
+happens automatically
+int i = 40;
+long l = i;
+- going from a bigger datatype to a smaller datatype
+needs manually casting
+long l = 100;
+int i = (int) l;
+Casting Formula:
+smallerDatatype varName =
+(smallerDatatype) biggerDatatypeValue
+____________________________________________________________

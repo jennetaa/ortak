@@ -1,0 +1,77 @@
+3/6/2022
+Day 24 Loops
+day24_loops
+____________________________________________________________
+for loop
+break and continue statements
+__________________________________________________________
+Recap
+while/do while: when the number of iterations is not known, it is
+based on other factors
+for loop: used when the number of iterations is fixed/known
+for(initialization; termination condition; update){
+statements
+}
+--> for syntax each section is optional. You must have the semi
+colon
+for( ; ; ) --> infinite loop
+for(int i = 0 ; i < 5 ; ) --> infinite loop
+for(int i = 0 ; ; i++ ) --> infinite loop
+flow of the for loop:
+1) initialization: declare and assign a variable that is
+used in the loop. Usually used to keep track of the number of iterations.
+Other use of the variable can be done, for example using the number as an
+index of a String
+--> this runs once, in the beginning
+2) termination condition: the boolean that determines if
+you should run/continue the loop
+if the boolean is true: the statements in the
+loop will execute
+if the boolean is false: the loop stop
+3) the code in the loop body is executed - this is one
+iteration of the statements
+4) update: changes the variable to avoid infinite loop
+5) going back up to step 2 - iteration is complete, next
+cycle will start
+Strings with loops
+Q: What does a loop iterating through a String loop like
+for(int i = 0; i < s.length(); i++){
+}
+These are possible ways to write the termination
+condition:
+i < s.length();
+i <= s.length() - 1;
+ex: String s = "java"
+i < s.length();  i < 4   -->
+stop before 4 because it is not a valid index
+i <= s.length() - 1; i <= 3
+--> stops at the last index of 3
+--> indexes start from 0, so our loop value i is set to
+start at 0, then it updates by 1 each iteration. The loop will continue as
+long as the number i is less than the length, which means the loop will
+only used valid index numbers
+Q: What does a loop look like if you go backward in the String
+for(int i = s.length() - 1; i >= 0; i--){
+}
+--> we start our loop from the last index of the String.
+To get the last index of a String we can use the length - 1. Then the loop
+will update by subtracting 1 each iteration as long as the number is more
+than or equal to 0, because those are the valid index numbers
+Q: How to dynamically read each character
+s.charAt(i)
+where i is the variable name declare in the
+loop
+intellij shortcut: fori
+break statement in loop:
+stops and exits the loop
+continue statement in loop:
+it will skip the rest of the iteration and goes to the
+update part.
+any code after a continue will not run for that iteration
+ex:
+for(int i = 1; i <= 100; i++){
+if(i % 2 == 1){
+continue;
+}
+System.out.print(i + " ");
+}

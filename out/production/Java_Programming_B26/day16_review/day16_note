@@ -1,0 +1,65 @@
+2/22/2022
+Day 16 Review
+day16_review
+________________________________________________________________
+review
+multi branch/ternary - retake
+nested if - movie ticket
+nested if - soccer game
+switch - calculator
+switch - author
+switch - hotel
+extra:
+casting
+operators
+________________________________________________________________
+Switch
+control flow statement that allows us match values via cases. Checks
+if the given value is equal to any defined case
+switch(value){
+case possible_value:
+// statements
+break;
+default:
+// statements
+}
+case possible_value: expected value that you are checking equality
+with. Datatype matches the value datatype
+valid datatypes: byte, short, int, String, char
+invalid datatypes: float, double, boolean, long
+cannot have duplicates cases. cases must be unique
+break: stops the switch statement
+default: case that is executed if no other case matches
+it be anywhere in the switch
+Execution flow:
+takes the value and tries to match it with a case. If the
+case is there, the statements are executed from that point, top to bottom,
+until the end of the switch or a break statement
+What is the difference between if, switch, and ternary
+if statements:
+in most cases if statements are used for
+controlling the flow of a program
+work with boolean logic
+able to use all datatypes
+multiple types that handle multiple different
+scenarios
+switch statements:
+can only compare values, check if the values
+are equal
+when the cases are known, when there is a
+fixed number of exact possible values
+ternary:
+used sometimes when there is simple boolean
+logic and a value must be given back
+the value is usually assigned to a
+variable or used right away
+- cannot be used when there is only one
+possible outcome
+any switch or ternary can be converted to an if statement
+________________________________________________________________
+Todo:
+Short videos:
+String Intro
+String Methods Part 1
+String Methods Part 2
+String Methods Part 3

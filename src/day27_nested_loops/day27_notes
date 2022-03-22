@@ -1,0 +1,39 @@
+3/9/2022
+Day 27 Nested Loops
+day27_nested_loops
+____________________________________________________________
+nested loop
+__________________________________________________________
+Nested Loop
+a loop inside of another loop
+ex:
+//outer loop
+for(int i = 0; i < 5; i++){
+// inner loop
+for(int j = 0; j < 2; j++){
+}
+}
+the outer loop will execute for 5 times
+every iteration of the outer loop will execute the inner
+loop from beginning to end
+so, how many times total does the inner loop
+run? 10 times
+i: 0
+j: 0
+j: 1
+i: 1
+j: 0
+j: 1
+i: 2:
+j: 0
+j: 1
+i: 3:
+j: 0
+j: 1
+i: 4:
+j: 0
+j: 1
+__________________________________________________________
+continue and break in nested loops
+whichever loop the continue or break statements are in is the one
+that gets effected

@@ -1,0 +1,88 @@
+Day 2 Intellij & Print Statements
+day02_print_statements
+____________________________________________________________
+Print Statements
+First Java Program
+____________________________________________________________
+Recap:
+What do computer understand:
+binary (0s and 1s)
+input -> [process/algorithm] -> output
+algorithm: step by step of how to solve the problem
+code (high level) -> compile/interpret (translates) -> machine level
+(low level)
+File.java -> compiler -> File.class (bytecode) -> JVM will translate
+and run
+-> Where does the compiler come from: JDK
+-> Whats the point of having the middle step of bytecode:
+it means you ran run java code anywhere there is a JVM (Platform
+independent)
+____________________________________________________________
+Project name: Java_Programming_B26
+By default all projects are made in a folder called IdeaProjects
+this folder is under your user
+IntelliJ project components
+project name: Project folder
+src: source folder
+package: folder
+class: java file
+console: window that shows your outputs
+out: folder that has the bytecode
+IntelliJ saves automatically
+Class: HelloWorld
+no space
+Java is not space sensitive  (in the code)
+Java is case sensitive (the lowercase and uppercase letter matter)
+What is this
+public static void main (String [] args) {
+}
+-> main method: allows you to run code
+-> When do you make main method: in every class, every separate file
+in only have one main method
+What is this
+System.out.println();
+-> lets your output something to console
+We use quotation marks to display characters
+is space a character -> yes
+Task: create a new java file called: TellMeAboutYourSelf under day2
+package
+add a main method
+try and print your name
+Shortcuts:
+main method: main or psvm
+printing: sout
+How to rename things
+for packages, for classes
+right click -> refactor -> rename
+Task:
+add more code to TellMeAboutYourself
+try to add more lines that print:
+- where you live
+- a hobby you enjoy
+- a random number
+Task:
+create a class called MyTriangle under the day 2 package
+try to print a triangle
+ *
+* *
+   *****
+Naming conventions
+package: lowercase, no spaces. to separate words you can use
+underscore.
+periods/dot for sub package
+class: Pascal Case - Words are together with no spaces, Each word
+starts with uppercase letter
+words: today we learned java
+normal: todaywelearnedjava
+camel case: todayWeLearnedJava
+first letter is lowercase and the rest of the
+words start with an uppercase
+Pascal Case: TodayWeLearnedJava
+Github: place where we will store code
+Todo:
+Make sure you have github access on okta, if you don't contact
+support
+Finish watching the rest of the short videos
+Single line & multi line comments
+Escape Sequences
+A little practice with making classes, main method and print statements

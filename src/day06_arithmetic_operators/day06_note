@@ -1,0 +1,72 @@
+2/7/2022
+Day 6 Arithmetic Operators
+day06_arithmetic_operators
+____________________________________________________________
+Recap
+Arithmetic Operators
+Operator Precedence
+____________________________________________________________
+Short videos this week
+Arithmetic Operators
+Unary Operators
+Short hand Operators
+Relation operators
+____________________________________________________________
+Recap
+char
+a single character in a single quote ' '
+every character has a number related to it
+boolean
+true or false
+String
+multiple characters in double quotations " "
+concatenation: whenever anything/any type is concatenated
+with a String, the result becomes a String and the two data are put
+together
+String is not a primitive datatype. its a class
+Type casting
+changing the datatype from one to another
+order:  [SMALL] byte -> short -> int -> long -> float ->
+double [LARGE]
+Smaller datatype --> Larger datatype
+Widening convention happens automatically
+int --> double
+Larger datatype --> Smaller
+Narrowing convention happens manually
+double --> int
+Formula to cast:
+datatype variable = (datatype you are casting
+to) variable/value
+Data loss: sometimes when going from a bigger
+number to a smaller number or a decimal number to a whole number there can
+be data loss, which means the value is changed
+char <> int
+------------------------------------------------------------
+Create a class House
+create a main method
+- Each the datatype you feel is most appropriate for each variable.
+- Create the following variables:
+house type, number of bedrooms, number of bathrooms, number of
+kitchens, is there a basement?, is there an attic, is there a pool, is the
+house for sale?, cost of the house, address, zipcode, is a park near by,
+Rating of surrounding school districts (out of 5),
+- Print each variable with a message with the value
+Ex: The number of bedrooms is: 4
+The number of bathrooms is: 3
+------------------------------------------------------------
+____________________________________________________________
+Number
+1.0E7
+1.0 x 10^7
+____________________________________________________________
+Arithmetic Operators
++ addition
+- subtraction
+* multiplication
+/ division
+% remainder/modulus
+When you use arithmetic operators between two different datatypes
+the result will be the bigger type.
+- When you use datatypes like short or byte and use some arithmetic
+operators the values are changed to int, so the result of the operation is
+also int

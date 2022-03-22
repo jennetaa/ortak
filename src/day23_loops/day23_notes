@@ -1,0 +1,70 @@
+3/5/2022
+Day 23 Loops
+day23_loops
+____________________________________________________________
+for loop
+____________________________________________________________
+Recap
+Loops
+repeating statements. Code that will be run multiple times.
+iteration: every repetition/cycle/execution of the statements in the
+loop
+infinite loop: loop that does not stop
+loop types:
+while: continues to iterate as long as the given boolean
+value is true. Checks the boolean first, then runs the code statements,
+then checks the boolean from the start again. That cycle repeats
+- syntax:
+while(boolean){
+// statements
+}
+do while: similar to while loop, but the first
+iteration/execution is always run at least one time and then the boolean
+value is checked. If the boolean is true the loop will iterate again and
+then boolean is checked again. That cycle repeats
+- syntax:
+do {
+// statements that will
+repeat
+} while(boolean);
+-> while and do while: used when the number of iterations is not
+known
+for loop: used when the number of iterations is known
+____________________________________________________________
+For loop: when there is a fixed number of iterations
+for(initialization; boolean condition; update){
+// statements
+}
+for(int i = 1; i <= 10; i++ ){
+System.out.println(i);
+}
+/*
+flow of for loop
+1) the loop executes the initialization part to declare and
+assign a variable
+in our ex: int i = 1;
+initialization part runs once in the beginning
+2) boolean condition/ termination condition
+-> if the boolean is true: the loop will execute the
+statements
+-> if the boolean is false: the loop will stop
+in our ex: i <= 10
+3) the statements in the code body are executed top to bottom
+in our ex: System.out.println(i);
+4) update happens -- this is the end of an iteration
+in our ex: i++
+5) goes back to step 2 and repeats
+*/
+For loop with String
+to read/use every character in a String:
+s.charAt(i)
+where s is a String
+and
+where i is an int number
+what is the termination condition with String in loops
+i starts at 0, usually
+i < s.length() or i <= s.length() - 1
+if you check for characters next to the current index
+using: i + 1
+then you should stop the loop earlier
+using i < length - 1

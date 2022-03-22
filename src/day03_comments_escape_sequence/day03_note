@@ -1,0 +1,62 @@
+2/2/2022
+Day 3 Comments & Escape Sequence
+day03_comments_escape_sequence
+____________________________________________________________
+Recap
+Comments
+Escape Sequence
+Using Github
+____________________________________________________________
+Short videos for the weekend:
+Primitive Data Types
+Primitive Type Casting
+____________________________________________________________
+Warm up:
+- Create todays package: day03_comments_escape_sequence
+- Create a new class in todays package: Goals
+- Create a main method
+- Using print statements print out 3 different goals you
+have for yourself in this course. Print each on a different line
+____________________________________________________________
+Recap
+If you don't have group:
+Omer#9709
+Guljannat#2209
+Canvas
+IntelliJ
+project: folder where all the other files are in
+src: source folder, where we will write java code
+package: folders in src, that will organize/group code
+java class: .java file that will have java code
+main method: a place to write and run code
+code: public static void main (String []
+args) {}
+shortcut in Intellij: main
+console: window that shows the output of your code
+out: folder that stores your bytecode. DO NOT TOUCH
+Print statements
+Code: System.out.println();
+this allows us to output something to the
+console
+How do we print letters/characters: double quotations ""
+shortcut in Intellij: sout
+- Java is case sensitive
+- Java is not space sensitive
+How to change the name of something:
+right click -> refactor -> rename
+____________________________________________________________
+Github
+See all the code we do together, online
+Go to okta -> click the github enterprise button -> Java Programming
+Project -> src -> package -> code
+____________________________________________________________
+println() vs print()
+System.out.println();
+prints whats given to the console. Then goes to the next
+line
+System.out.print();
+prints whats given to the console, but all in the same
+line
+-> Cannot be used without input
+____________________________________________________________
+Comments
